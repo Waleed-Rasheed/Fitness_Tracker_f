@@ -2,17 +2,17 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import DashboardLayout from "./components/Dashboard/DashboardLayout";
-import Dashboard from "./pages/Dashboard";
-import AddExercise from "./pages/Exercise/AddExercise";
-import ViewExercise from "./pages/Exercise/ViewExercise";
-import AddCategory from "./pages/category/AddCategory";
-import ViewCategory from "./pages/category/ViewCategory";
-import Nutrition from "./Pages/nutrition/Nutrition";
-import Profile from "./Pages/Profile";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
-import Home from "./pages/Home";
-import AdminDb from "./pages/AdminDb";
+import Dashboard from "./pages/Dashboard.jsx";
+import AddExercise from "./pages/Exercise/AddExercise.jsx";
+import ViewExercise from "./pages/Exercise/ViewExercise.jsx";
+import AddCategory from "./pages/category/AddCategory.jsx";
+import ViewCategory from "./pages/category/ViewCategory.jsx";
+import Nutrition from "./Pages/nutrition/Nutrition.jsx";
+import Profile from "./Pages/Profile.jsx";
+import Login from "./pages/Login.jsx";
+import Signup from "./pages/Signup.jsx";
+import Home from "./pages/Home.jsx";
+import AdminDb from "./pages/AdminDb.jsx";
 import ProtectRoute from "./routes/ProtectedRoute";
 
 const App=()=> {
