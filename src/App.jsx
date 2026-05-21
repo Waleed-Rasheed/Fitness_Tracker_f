@@ -15,7 +15,7 @@ import Home from "./pages/Home";
 import AdminDb from "./pages/AdminDb";
 import ProtectRoute from "./routes/ProtectedRoute";
 
-function App() {
+const App=()=> {
   return (
     <>
       <ToastContainer position="top-right" autoClose={2000} />
