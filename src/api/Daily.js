@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const dailyApi = axios.create({
-  baseURL: "http://localhost:8080/api/daily",
+  baseURL: "http://localhost:8080/api/daily || https://fitness-tracker-b-git-main-waleed-rasheeds-projects.vercel.app/",
 });
 
 dailyApi.interceptors.request.use((req) => {

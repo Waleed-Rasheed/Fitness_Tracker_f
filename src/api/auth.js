@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL:"http://localhost:8080/auth"
+    baseURL:"http://localhost:8080/auth || https://fitness-tracker-b-git-main-waleed-rasheeds-projects.vercel.app/"
 });
 
 API.interceptors.request.use((req)=>{
